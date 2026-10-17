@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@changesets/config/schema.json",
+  "changelog": "./changelog-release-line.cjs",
+  "commit": false,
+  "fixed": [],
+  "linked": [],
+  "access": "public",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}

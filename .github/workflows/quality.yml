@@ -1,0 +1,29 @@
+name: Quality
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  quality:
+    name: Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v7
+
+      - name: Install
+        uses: ./.github/actions/install
+
+      - name: Build package
+        run: bun run build
+
+      - name: Run tests
+        run: bun test
+
+      - name: Run lint
+        run: bun lint

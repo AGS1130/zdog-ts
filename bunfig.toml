@@ -1,0 +1,11 @@
+[install]
+# https://bun.sh/docs/runtime/bunfig#package-manager
+exact = true
+linker = "isolated"
+
+[test]
+# https://bun.sh/docs/runtime/bunfig#test-runner
+coverage = true
+coveragePathIgnorePatterns = ["dist/**", "test-preload.ts"]
+coverageThreshold = 0.7
+preload = ["./test-preload.ts"]
