@@ -1,6 +1,6 @@
 {
   "name": "zdog-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Zdog written in TypeScript",
   "bugs": {
     "url": "https://github.com/AGS1130/zdog-ts/issues"
