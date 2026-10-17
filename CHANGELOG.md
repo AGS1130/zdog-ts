@@ -1,5 +1,11 @@
 # zdog-ts
 
+## [1.0.1] - 2026-10-17
+
+### Fixed
+
+- No changes in this release; enables Trusted Publishing.
+
 ## [1.0.0] - 2026-10-17
 
 ### Changed
